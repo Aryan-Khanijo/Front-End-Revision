@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:200,300,400,500,600,700,900');
+
+html, body
+{
+    background-color: indianred;
+    margin: 0;
+}
+.ruler
+{
+    width: 70%;
+    align-content: center;
+    border: 1px solid rgba(0, 5, 68, 0.678);
+}
+
+.header
+{
+    width: 50%;
+    padding-top: 7%;
+    padding-left: 25%;
+    display: inline-block;
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Source Code Pro', monospace;
+    color: rgba(0, 5, 68, 0.678);
+}
+
+.waifu
+{
+    background-image: url('media/hinata.jpg');
+    border-radius: 50%;
+    height: 25em;
+    width: 25em;
+    align-self: center;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trans
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trans-btn
+{
+    border: 1px solid rgba(0, 5, 68, 0.678);
+    color: rgba(0, 5, 68, 0.678);
+    padding: 1.5%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    background-color: indianred;
+    text-justify: auto;
+    /* border: 0px; */
+}
+
+.trans-btn:hover
+{
+    background-color: rgba(0, 5, 68, 0.678);
+    color: #ffffff;
+}
+
+.name
+{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    color: rgba(0, 5, 68, 0.678);
+}
