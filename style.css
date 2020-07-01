@@ -30,7 +30,7 @@ html, body
 
 .waifu
 {
-    background-image: url('media/hinata.jpg');
+    /* background-image: url('media/hinata.jpg'); */
     border-radius: 50%;
     height: 25em;
     width: 25em;
