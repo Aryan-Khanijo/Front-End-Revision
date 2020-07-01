@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--CSS Spinner-->
+    <div class="spinner-wrapper">
+    <div class="spinner"></div>
+    </div>
     <div class="header">
         <hr class="ruler">
         <h1 class="heading">These are my waifu</h1>
@@ -20,6 +24,17 @@
     <div class="desc">
         <b><p class="name" id = 'name'>Hinata</p></b> 
     </div>
+    <script>
+        $(document).ready(function() {
+        //Preloader
+        preloaderFadeOutTime = 1000;
+        function hidePreloader() {
+        var preloader = $('.spinner-wrapper');
+        preloader.fadeOut(preloaderFadeOutTime);
+        }
+        hidePreloader();
+        });
+        </script>
     <script src="script.js"></script>
 </body>
 </html>
