@@ -1,5 +1,5 @@
 var x = 0;
-var namelist = ['Akeno','Kojima','Megumin','Hinata','Boa'];
+var namelist = ['Akeno','Kojima','Megumin','Boa','Hinata'];
 function changePicnName()
 {
     if (x == 5)
